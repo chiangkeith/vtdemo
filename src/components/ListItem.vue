@@ -57,6 +57,7 @@ export default {
   overflow hidden
   display flex
   flex-direction column
+  cursor pointer
 
   &__leading
     width 100%

@@ -45,9 +45,12 @@ export default {
   .title
     display flex
     justify-content center
-    align-items center
+    align-items flex-start
+    min-width 40px
+    padding 2px
   .items
     margin-left 24px
+    text-align left
     .item
       display inline-block
       padding 4px 8px
@@ -57,10 +60,15 @@ export default {
       letter-spacing 0
       line-height 16px
       cursor pointer
+      transition background-color 0.5s, color 0.5s
       &.active
         color #fff
         background-color #4283E4
         border-radius 4px
-      &:not(:first-child)
-        margin-left 8px
+      &:not(:last-child)
+        margin-right 8px
+  @media (min-width 500px)
+    .filter-group
+      .title
+        align-items center
 </style>

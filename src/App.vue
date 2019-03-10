@@ -10,8 +10,11 @@
   -moz-osx-font-smoothing grayscale
   text-align center
   color #2c3e50
-  padding 55px
+  padding 20px
 .view
   max-width 1366px
   margin 0 auto
+@media (min-width 500px)
+  #app
+    padding 55px
 </style>
