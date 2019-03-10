@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/vtdemo/dist/js/chunk-vendors.4741d915.js"
   },
   {
-    "revision": "69e80464c9d499e9437d",
-    "url": "/vtdemo/dist/js/app.87d6eba2.js"
+    "revision": "bae450bc297fd55841f2",
+    "url": "/vtdemo/dist/js/app.b0e64bc7.js"
   },
   {
-    "revision": "07b63c5b9e639e8f5731038ba118f2cd",
+    "revision": "5c082c7b254b0ac76e711b57346d59e5",
     "url": "/vtdemo/dist/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/vtdemo/dist/img/baseline-headset-24px.868d3e72.svg"
   },
   {
-    "revision": "69e80464c9d499e9437d",
+    "revision": "bae450bc297fd55841f2",
     "url": "/vtdemo/dist/css/app.e2d3f816.css"
   }
 ];

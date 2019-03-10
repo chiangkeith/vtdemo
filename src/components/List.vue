@@ -7,7 +7,7 @@
           :index="index"
           :key="get(item, 'id')" />
       </template>
-      <div class="no-found"><span v-text="$t('NOT_FOUND')"></span></div>
+      <div class="no-found" v-else><span v-text="$t('NOT_FOUND')"></span></div>
     </div>
   </div>
 </template>
