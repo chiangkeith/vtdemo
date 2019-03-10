@@ -1,18 +1,24 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <FilterBar />
+    <List />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+// import HelloWorld from '@/components/HelloWorld.vue'
+import FilterBar from '../components/FilterBar.vue'
+import List from '../components/List.vue'
+const fetchList = store => store.dispatch('FETCH_LIST', {})
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    FilterBar,
+    List
+  },
+  beforeMount () {
+    fetchList(this.$store)
   }
 }
 </script>
